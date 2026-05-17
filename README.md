@@ -98,8 +98,6 @@ License: GPL v3
 | Read CZI Metadata   | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/read_czi_metadata.ipynb)  |
 | Read CZI Pixel Data | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/read_czi_pixeldata.ipynb) |
 
-
-
 ## Deep Learning Topics
 
 ### Train a Deep-Learning Model for Semantic Segmentation on arivis Cloud
@@ -137,7 +135,6 @@ For details and more information examples please go to: [czmodel]
 ### Train a simple model for semantic segmentation
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/SingleClassSemanticSegmentation_PyTorch.ipynb)
-
 
 ### Use the model inside Napari (experimental)
 
