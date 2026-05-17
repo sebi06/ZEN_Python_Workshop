@@ -88,10 +88,10 @@ License: GPL v3
 - read complete or partial metadata is a structured format
 - get the plantable from a CZI
 
-| Topic               | Link                                                                                                                                                                                                    |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Read CZI metadata   | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/czitools/blob/main/ZEN_Python_Workshop/notebooks/read_czi_metadata.ipynb)  |
-| Read CZI Pixel Data | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/czitools/blob/main/ZEN_Python_Workshop/notebooks/read_czi_pixeldata.ipynb) |
+| Topic               | Link                                                                                                                                                                                                               |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Read CZI metadata   | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/ZEN_Python_Workshop/notebooks/read_czi_metadata.ipynb)  |
+| Read CZI Pixel Data | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_python_Workshop/blob/main/ZEN_Python_Workshop/notebooks/read_czi_pixeldata.ipynb) |
 
 
 ## Deep Learning Topics
