@@ -3,13 +3,13 @@ name = "zen-python"
 version = "0.0.1"
 description = "Playground ZEN python Workshop"
 channels = ["conda-forge"]
-platforms = ["win-64", "linux-64", "osx-64", "osx-arm64"]
+platforms = ["win-64", "linux-64", "osx-arm64"]
 
 [environments]
 zen-python = { features = ["default"], solve-group = "default" }
 
 [dependencies]
-python = "3.13.*"
+python = "3.12.*"
 #altair = "*"
 colormap = "*"
 dask = ">=2024.1,<2025.11"
@@ -34,6 +34,10 @@ xarray = ">=2026.2.0"
 xmltodict = "*"
 wordcloud = "*"
 ome-zarr-models = ">=1.7,<2"
+opencv = "*"
+pyclesperanto = "*"
+pyopencl = "*"
+onnxruntime = ">=1.22.2,<2"
 
 [pypi-dependencies]
 # Local package (editable install)
@@ -42,6 +46,7 @@ czi-omezarr-utils = {path = ".", editable = true}
 # CZI readers
 aicspylibczi = ">=3.3.1"
 czitools = ">=0.17.0"
+czmodel = {version = ">=6.1.2", extras = ["pytorch"]}
 
 # # BioIO ecosystem
 # bioio = "*"
@@ -57,7 +62,7 @@ ome-writers = "*"
 # napari plugins
 napari-brightness-contrast = "*"
 napari-crop = "*"
-napari-czitools = "*"
+napari-czitools = ">=0.0.11"
 napari-layer-details-display = "*"
 napari-ome-zarr = "*"
 napari-plugin-search = "*"
@@ -70,3 +75,13 @@ loguru = "*"
 marimo = "*"
 ngio = ">=0.5.9"
 pip-system-certs = "*"
+
+[target.win-64.pypi-dependencies]
+torch = "==2.5.1"
+torchvision = "==0.20.1"
+czmodel = {version = ">=6", extras = ["pytorch"]}
+
+[target.linux-64.pypi-dependencies]
+torch = "==2.5.1"
+torchvision = "==0.20.1"
+czmodel = {version = ">=6", extras = ["pytorch"]}
