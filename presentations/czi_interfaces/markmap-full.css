@@ -1,0 +1,7 @@
+/* Make all Markmap SVGs fill the slide width and most of its height */
+.reveal svg.markmap {
+  width: 100% !important;
+  height: 650px !important; /* adjust to taste; near default slide height */
+  display: block;
+  margin: 0 auto;
+}

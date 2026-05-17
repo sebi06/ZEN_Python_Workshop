@@ -1,0 +1,68 @@
+# Disclaimer:
+#
+# The author(s) undertakes no warranty concerning the use of this YML file. Use at your own risk.
+# By using any of those examples you agree to this disclaimer.
+
+name: omezarr
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - colormap
+  - dask
+  - dask-image
+  - ipyfilechooser
+  - ipykernel
+  - magicgui
+  - matplotlib>=3.7.0
+  - napari>=0.6.5
+  - numpy
+  - pandas
+  - pip
+  - requests
+  - scikit-image>=0.26.0
+  - seaborn>=0.13.2
+  - setuptools
+  - tqdm
+  - validators
+  - wheel
+  - xarray>=2026.2.0
+  - xmltodict
+  - altair
+  - pytest
+
+  - pip:
+      - aicspylibczi>=3.3.1
+      - bioio
+      - bioio-czi
+      - bioio-ome-zarr
+      - bioio-conversion
+      - czitools>=0.17.0
+      - df2tables
+      - loguru
+      - napari-brightness-contrast
+      - napari-crop
+      - napari-czitools
+      - napari-layer-details-display
+      - napari-ome-zarr
+      - napari-plugin-search
+      - napari-skimage-regionprops
+      - ngff-zarr[dask-image,validate]>=0.34.0
+      - marimo
+      - ome-zarr>=0.16.0
+      - ome-zarr-models
+      - ome-writers
+
+# Create an environment - use conda or mamba
+# conda env create --file env_omezarr.yml
+
+# Update an environment
+# conda env update --name omezarr --file env_omezarr.yml --prune
+
+# Remove an environment
+# conda remove --name omezarr --all
+# conda clean --all
+
+# Show the locations of all versions of Python that are currently in the path
+# Windows: where python
+# Linux which -a python

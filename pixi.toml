@@ -1,0 +1,71 @@
+[workspace]
+name = "zen-python"
+version = "0.0.1"
+description = "Playground ZEN python Workshop"
+channels = ["conda-forge"]
+platforms = ["win-64", "linux-64", "osx-64", "osx-arm64"]
+
+[environments]
+zen-python = { features = ["default"], solve-group = "default" }
+
+[dependencies]
+python = "3.13.*"
+#altair = "*"
+colormap = "*"
+dask = ">=2024.1,<2025.11"
+dask-image = "*"
+fsspec = "*"
+ipyfilechooser = "*"
+ipykernel = "*"
+magicgui = "*"
+matplotlib = ">=3.7.0"
+napari = ">=0.7.0"
+numpy = "*"
+pandas = "<3"
+pytest = "*"
+requests = "*"
+scikit-image = ">=0.26.0"
+seaborn = ">=0.13.2"
+setuptools = "*"
+tqdm = "*"
+validators = "*"
+wheel = "*"
+xarray = ">=2026.2.0"
+xmltodict = "*"
+wordcloud = "*"
+ome-zarr-models = ">=1.7,<2"
+
+[pypi-dependencies]
+# Local package (editable install)
+czi-omezarr-utils = {path = ".", editable = true}
+
+# CZI readers
+aicspylibczi = ">=3.3.1"
+czitools = ">=0.17.0"
+
+# # BioIO ecosystem
+# bioio = "*"
+# bioio-czi = "*"
+# bioio-ome-zarr = "*"
+# bioio-conversion = "*"
+
+# OME-ZARR ecosystem
+ngff-zarr = ">=0.34.0"
+ome-zarr = ">=0.16.0"
+ome-writers = "*"
+
+# napari plugins
+napari-brightness-contrast = "*"
+napari-crop = "*"
+napari-czitools = "*"
+napari-layer-details-display = "*"
+napari-ome-zarr = "*"
+napari-plugin-search = "*"
+napari-skimage-regionprops = "*"
+napari-czann-segment =  ">=0.0.23"
+
+# Other utilities
+df2tables = "*"
+loguru = "*"
+marimo = "*"
+ngio = ">=0.5.9"
