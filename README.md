@@ -35,9 +35,63 @@ pixi install
 >
 > To use [Colab] one needs to have a Google account.
 
-## Python Package: pylibCZIrw
+## C++ library: libCZI
+
+[libCZI] is an Open Source Cross-Platform C++ library to read and write CZI.
+
+![libCZI](./presentations/czi_interfaces/images/libczi.png)
+
+Repo: [https://github.com/ZEISS/libczi](https://github.com/ZEISS/libczi)
+Docs: [https://zeiss.github.io/libczi/](https://zeiss.github.io/libczi/)
+License: LGPL v3
+
+libCZI is a library intended for providing read and write access:
+
+- reading subblock pixeldata 
+- works with tiled and pyramidal images
+- composing multi-channel images with tinting and applying a gradation curves
+- access metadata
+- writing subblocks and metadata
+- used by [aicspylibczi] and [bioio-czi]
+
+## pylibCZIrw (python wrapper for [libCZI])
 
 A simple and easy-to-use Python wrapper for [libCZI](https://github.com/ZEISS/libczi) - a cross-platform C++ library intended for providing read and write access to CZI documents
+
+![pylibCZIrw](./presentations/czi_interfaces/images/pylibczirw.png)
+
+PyPi: [https://pypi.org/project/pylibCZIrw/](https://pypi.org/project/pylibCZIrw/)
+Repo: [https://github.com/ZEISS/pylibczirw](https://github.com/ZEISS/pylibczirw)
+Docs: [https://zeiss.github.io/pylibczirw/](https://zeiss.github.io/pylibczirw/)
+License: LGPL v3
+
+Simple and easy-to-use Python wrapper for [libCZI] providing read and write access to CZI image documents
+
+- reading any 2D plane and ROIs from any dimension
+- On-the-fly interpolations
+- access metadata
+- writing 2D planes to any dimension
+- Used by [bioio-czi](https://pypi.org/project/bioio-czi/) library
+
+## czitools (experimental)
+
+This repository provides a collection of tools to simplify reading CZI (Carl Zeiss Image) pixel and metadata in Python. It is available as a Python Package on PyPi.
+
+> Disclaimer: [czitools](https://pypi.org/search/?q=czitools) is an experimental python package and not officially supported by ZEISS.
+
+PyPi: [https://pypi.org/project/czitools/](https://pypi.org/project/czitools/)
+Repo: [https://github.com/sebi06/czitools](https://github.com/sebi06/czitools)
+Docs: [https://sebi06.github.io/czitools/latest/](https://sebi06.github.io/czitools/latest/)
+License: GPL v3
+
+- read complete stacks or substacks of CZI as numpy or dask arrays incl. lazy-loading
+- read complete or partial metadata is a structured format
+- get the plantable from a CZI
+
+| Topic               | Link                                                                                                                                                                                                    |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Read CZI metadata   | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/czitools/blob/main/ZEN_Python_Workshop/notebooks/read_czi_metadata.ipynb)  |
+| Read CZI Pixel Data | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/czitools/blob/main/ZEN_Python_Workshop/notebooks/read_czi_pixeldata.ipynb) |
 
 
 ## Deep Learning Topics
@@ -215,3 +269,6 @@ See: [write_omezarr_adv.py](./workshop/czi_omezarr/write_hcs_ngffzarr.py)
 [CZICompress]: https://github.com/ZEISS/czicompress
 [ome-zarr]: https://github.com/ome/ome-zarr-py
 [ngff-zarr]: https://github.com/fideus-labs/ngff-zarr
+[bioio-czi]: https://pypi.org/project/bioio-czi/
+[aicspylibczi]: https://pypi.org/project/aicspylibczi/
+[napari-czitools]: https://pypi.org/project/napari-czitools/
