@@ -4,6 +4,7 @@
   - [Prerequisites](#prerequisites)
     - [Install Pixi](#install-pixi)
     - [Install Python Environment](#install-python-environment)
+    - [Clone the repository](#clone-the-repository)
     - [Additional Remarks](#additional-remarks)
   - [C++ library: libCZI](#c-library-libczi)
   - [pylibCZIrw (python wrapper for libCZI)](#pylibczirw-python-wrapper-for-libczi)
@@ -28,7 +29,7 @@
 
 ## Disclaimer
 
-This content of this repository is free to use for everybody and purely experimental. The authors undertakes no warranty concerning the use of the code examples, ose scripts, image analysis settings and ZEN experiments, especially not for the examples using 3rd python modules. Use them on your own risk.
+This content of this repository is free to use for everybody and purely experimental. The authors undertake no warranty concerning the use of the code examples, those scripts, image analysis settings and ZEN experiments, especially not for the examples using 3rd-party Python modules. Use them at your own risk.
 
 **By using any of those examples you agree to this disclaimer.**
 
@@ -54,6 +55,17 @@ pixi self-update
 ```cmd
 pixi install
 ```
+
+### Clone the repository
+
+To clone this repository:
+
+- navigate to a folder of your choice
+- open a terminal or command window
+
+```bash
+git clone https://github.com/sebi06/ZEN_Python_Workshop
+````
 
 ### Additional Remarks
 
@@ -110,8 +122,8 @@ Simple and easy-to-use Python wrapper for [libCZI] providing read and write ac
 
 This repository provides a collection of tools to simplify reading CZI (Carl Zeiss Image) pixel and metadata in Python. It is available as a Python Package on PyPi.
 
-> Disclaimer: [czitools] is an experimental python package and not officially supported by ZEISS.
-> The authors undertakes no warranty concerning its use.
+> Disclaimer: [czitools] is an experimental Python package and not officially supported by ZEISS.
+> The authors undertake no warranty concerning its use.
 
 PyPi: [https://pypi.org/project/czitools/](https://pypi.org/project/czitools/)
 Repo: [https://github.com/sebi06/czitools](https://github.com/sebi06/czitools)
@@ -119,7 +131,7 @@ Docs: [https://sebi06.github.io/czitools/latest/](https://sebi06.github.io/czito
 License: GPL v3
 
 - read complete stacks or substacks of CZI as numpy or dask arrays incl. lazy-loading
-- read complete or partial metadata is a structured format
+- read complete or partial metadata in a structured format
 - get the plantable from a CZI
 - create OME-ZARR from CZI
 
@@ -135,7 +147,7 @@ License: GPL v3
 ## napari-czitools (experimental)
 
 > Disclaimer: [napari-czitools] is an experimental Napari plugin and not officially supported by ZEISS.
-> The authors undertakes no warranty concerning its use.
+> The authors undertake no warranty concerning its use.
 
 In order to use such a model one needs a running python environment with [Napari] and the [napari-czitools] plugin installed.
 
@@ -153,12 +165,12 @@ CZI image files can be converted to OME-ZARR using various approaches.
 
 - use [NGFF-Converter] powered by [Glencoe Software](https://www.glencoesoftware.com/index.html)
 - using [bioio-conversion]
-- reading CZI using into array-like structure uisng [czitools], [bioio-czi], [aicspylibczi] or [czifile] and then ...
+- reading CZI into an array-like structure using [czitools], [bioio-czi], [aicspylibczi] or [czifile] and then ...
   - ... using [OME-ZARR]
   - ... using [NGFF-ZARR]
 
-> Disclaimer: All tools and scripts related to CZI -> OME_ZARR conversion are officially supported by ZEISS and purely experimental.
-> The authors undertakes no warranty concerning its use.
+> Disclaimer: All tools and scripts related to CZI -> OME-ZARR conversion are not officially supported by ZEISS and are purely experimental.
+> The authors undertake no warranty concerning its use.
 
 ### CZI-2-OMEZARR Conversion Playground
 
@@ -169,15 +181,15 @@ Simple & experimental UI aiming to provide a playground to explore different opt
 To start it use:
 
 ```bash
-pixi run start-ome-ui
+pixi run start-omeui
 ```
 
 ### Example notebooks OME_ZARR
 
-| Topic                | Link                                                                                                                                                                                                 |
-| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| OME-ZARR from CZI    | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/omezarr_from_czi_5d.ipynb)      |
-| Analyze HCS OME_ZARR | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/process_omezarr_HCS_plate.iynb) |
+| Topic                | Link                                                                                                                                                                                                  |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| OME-ZARR from CZI    | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/omezarr_from_czi_5d.ipynb)       |
+| Analyze HCS OME_ZARR | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/process_omezarr_HCS_plate.ipynb) |
 
 
 
@@ -185,9 +197,9 @@ pixi run start-ome-ui
 
 ### Train a Deep-Learning Model for Semantic Segmentation on arivis Cloud
 
-It is straight forward to train AI models for sematic and instance segmentation on [arivis Cloud]. The training is based on a zero-code approach and especially suited for beginners.
+It is straightforward to train AI models for semantic and instance segmentation on [arivis Cloud]. The training is based on a zero-code approach and especially suited for beginners.
 
-For the the examples below the focus in on **Semantic Segmentation** only.
+For the examples below the focus is on **Semantic Segmentation** only.
 
 - login to **[arivis Cloud]** (requires account)
 - create **New Dataset**
@@ -208,7 +220,7 @@ For more detailed information please visit: [Docs - Partial Annotations](https:/
 
 Once the training is finished one will get notified via mail and the model can be downloaded as an *.czann file, which is an ONNX model plus model metadata. For detail see: [czmodel]
 
-Remark: The the modelfile: **cyto2022_nuc2.czann** can be found inside the repository and can be used directly for the examples.
+Remark: The model file **cyto2022_nuc2.czann** can be found inside the repository and can be used directly for the examples.
 
 ### Use the CZANN model in your python code
 
@@ -283,6 +295,9 @@ Please check the tool's internal help by running `CZICheck.exe --help` and check
 ---
 
 [aicspylibczi]: https://pypi.org/project/aicspylibczi/
+[bioio-conversion]: https://pypi.org/project/bioio-conversion/
+[czifile]: https://pypi.org/project/czifile/
+[NGFF-Converter]: https://www.glencoesoftware.com/products/ngff-converter/
 [arivis Cloud]: https://www.arivis.cloud
 [bioio-conversion]: https://pypi.org/project/bioio-conversion/
 [bioio-czi]: https://pypi.org/project/bioio-czi/
