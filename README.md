@@ -1,5 +1,4 @@
 - [ZEN Python Workshop](#zen-python-workshop)
-  - [Disclaimer](#disclaimer)
   - [General Remarks](#general-remarks)
   - [Prerequisites](#prerequisites)
     - [Install Pixi](#install-pixi)
@@ -24,14 +23,14 @@
   - [CZICheck - Check CZI for internal errors](#czicheck---check-czi-for-internal-errors)
   - [Useful Links](#useful-links)
 
-
 # ZEN Python Workshop
 
-## Disclaimer
-
-This content of this repository is free to use for everybody and purely experimental. The authors undertake no warranty concerning the use of the code examples, those scripts, image analysis settings and ZEN experiments, especially not for the examples using 3rd-party Python modules. Use them at your own risk.
-
-**By using any of those examples you agree to this disclaimer.**
+> Disclaimer: This content of this repository is free to use for everybody and purely experimental.
+> The authors undertake no warranty concerning the use of the code examples, scripts and notebooks, especially not for the examples using 3rd-party Python modules.
+> 
+> Use them at your own risk!
+> 
+> **By using any of those examples you agree to this disclaimer.**
 
 ## General Remarks
 
@@ -190,7 +189,6 @@ pixi run start-omeui
 | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | OME-ZARR from CZI    | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/omezarr_from_czi_5d.ipynb)       |
 | Analyze HCS OME_ZARR | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/process_omezarr_HCS_plate.ipynb) |
-
 
 
 ## Deep Learning Topics
