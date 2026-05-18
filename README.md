@@ -67,9 +67,9 @@ pixi install
 
 ![libCZI](./presentations/czi_interfaces/images/libczi.png)
 
-Repo: [https://github.com/ZEISS/libczi](https://github.com/ZEISS/libczi)
-Docs: [https://zeiss.github.io/libczi/](https://zeiss.github.io/libczi/)
-License: LGPL v3
+- Repo: [https://github.com/ZEISS/libczi](https://github.com/ZEISS/libczi)
+- Docs: [https://zeiss.github.io/libczi/](https://zeiss.github.io/libczi/)
+- License: LGPL v3
 
 libCZI is a library intended for providing read and write access:
 
@@ -86,10 +86,10 @@ A simple and easy-to-use Python wrapper for [libCZI](https://github.com/ZEISS/li
 
 ![pylibCZIrw](./presentations/czi_interfaces/images/pylibczirw.png)
 
-PyPi: [https://pypi.org/project/pylibCZIrw/](https://pypi.org/project/pylibCZIrw/)
-Repo: [https://github.com/ZEISS/pylibczirw](https://github.com/ZEISS/pylibczirw)
-Docs: [https://zeiss.github.io/pylibczirw/](https://zeiss.github.io/pylibczirw/)
-License: LGPL v3
+- PyPi: [https://pypi.org/project/pylibCZIrw/](https://pypi.org/project/pylibCZIrw/)
+- Repo: [https://github.com/ZEISS/pylibczirw](https://github.com/ZEISS/pylibczirw)
+- Docs: [https://zeiss.github.io/pylibczirw/](https://zeiss.github.io/pylibczirw/)
+- License: LGPL v3
 
 Simple and easy-to-use Python wrapper for [libCZI] providing read and write access to CZI image documents
 
