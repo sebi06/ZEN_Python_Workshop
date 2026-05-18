@@ -279,12 +279,12 @@ Please check the tool's internal help by running `CZICheck.exe --help` and check
 | ------------------------------------------------------ | ---------------------- | ------------------------------------------------------------------------ | ------------------ |
 | Napari - Python-based image viewer                     | [Napari]               | pip - Python Package Installer                                           | [PiP]              |
 | PyPi - Python Package Index                            | [PyPI]                 | OME-ZARR Python Library                                                  | [OME-ZARR]         |
-| pylibCZIrw - GitHub Repository for CZI files (Python)  | [pylibCZIrw]           | czmodel - Package for Pytorch & ONNX models                              | [czmodel]          |
+| pylibCZIrw - Reading & Writing CZI files (Python)      | [pylibCZIrw]           | czmodel - Package for Pytorch & ONNX models                              | [czmodel]          |
 | cztile - Python Package for tiling arrays              | [cztile]               | arivis Cloud - DL Training Platform                                      | [arivis Cloud]     |
 | napari-czann-segment - Napari Plugin for DL models     | [napari-czann-segment] | napari-czitools - Plugin for CZI files                                   | [napari-czitools]  |
-| CZI - Carl Zeiss Image Format                          | [CZI Image Format]     | PyTorch                                                                  | [PyTorch]          |
-| ONNX                                                   | [ONNX]                 | libCZI - GitHub Repository for CZI files (C++)                           | [libCZI]           |
-| czitools - Tools for CZI files                         | [czitools]             | Colab                                                                    | [Colab]            |
+| CZI - Carl Zeiss Image Format                          | [CZI Image Format]     | PyTorch - tensor library for deep learning using GPUs and CPUs.          | [PyTorch]          |
+| ONNX - Open Neural Network Exchange                    | [ONNX]                 | libCZI - Reading & Writing CZI files (C++)                               | [libCZI]           |
+| czitools - Tools for CZI files                         | [czitools]             | Colab - Cloud-based interactive Jupyter Notebooks                        | [Colab]            |
 | Docker Desktop                                         | [Docker Desktop]       | CZICompress - Shrink CZI files                                           | [CZICompress]      |
 | CZIChecker - Check Integrity of CZI files              | [CZICheck]             | ome-zarr - Python Implementation of NGFF Specs                           | [OME-ZARR]         |
 | NGFF - Next-generation File Formats                    | [NGFF-ZARR]            | ngff-zarr - Python Implementation of NGFF Specs                          | [NGFF-ZARR]        |
