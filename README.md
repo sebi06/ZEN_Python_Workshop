@@ -120,12 +120,12 @@ License: GPL v3
 - get the plantable from a CZI
 - create OME-ZARR from CZI
 
-| Topic               | Link                                                                                                                                                                                                 |
-| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Read CZI Metadata   | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/read_czi_metadata.ipynb)        |
-| Read CZI Pixel Data | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/read_czi_pixeldata.ipynb)       |
-| Get CZI PlaneTable  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/get_planetable.ipynb)           |
-| OME-ZARR from CZI   | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/demo/notebooks/omezarr_from_czi_5d.ipynb) |
+| Topic               | Link                                                                                                                                                                                           |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Read CZI Metadata   | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/read_czi_metadata.ipynb)  |
+| Read CZI Pixel Data | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/read_czi_pixeldata.ipynb) |
+| Get CZI PlaneTable  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/get_planetable.ipynb)     |
+| OME-ZARR from CZI   | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/omezarr_from_czi_5d.ipynb)          |
 
 ## napari-czitools (experimental)
 
