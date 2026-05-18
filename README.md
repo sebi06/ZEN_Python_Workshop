@@ -9,11 +9,6 @@
   - [pylibCZIrw (python wrapper for libCZI)](#pylibczirw-python-wrapper-for-libczi)
   - [czitools (experimental)](#czitools-experimental)
   - [napari-czitools (experimental)](#napari-czitools-experimental)
-  - [CZI and OME-ZARR (experimental)](#czi-and-ome-zarr-experimental)
-    - [Convert CZI to OME-ZARR using ome-zarr](#convert-czi-to-ome-zarr-using-ome-zarr)
-    - [Convert CZI to OME-ZARR using ngff-zarr](#convert-czi-to-ome-zarr-using-ngff-zarr)
-    - [Convert CZI to OME-ZARR HCS Plate using ome-zarr](#convert-czi-to-ome-zarr-hcs-plate-using-ome-zarr)
-    - [Convert CZI to OME-ZARR HCS Plate using ngff-zarr](#convert-czi-to-ome-zarr-hcs-plate-using-ngff-zarr)
   - [Deep Learning Topics](#deep-learning-topics)
     - [Train a Deep-Learning Model for Semantic Segmentation on arivis Cloud](#train-a-deep-learning-model-for-semantic-segmentation-on-arivis-cloud)
     - [Use the CZANN model in your python code](#use-the-czann-model-in-your-python-code)
@@ -134,28 +129,6 @@ License: GPL v3
 In order to use such a model one needs a running python environment with [Napari] and the [napari-czitools] plugin installed.
 
 For more detailed information about the plugin please go to: [Napari Hub - napari-czitools](https://napari-hub.org/plugins/napari-czitools.html)
-
-## CZI and OME-ZARR (experimental)
-
-All OME-ZARR related scripts here are purely experimental. The authors undertakes no warranty concerning the use of those scripts.
-
-**By using any of those examples you agree to this disclaimer.**
-
-### Convert CZI to OME-ZARR using [ome-zarr]
-
-See: [write_omezarr_adv.py](./workshop/czi_omezarr/write_omezarr_adv.py)
-
-### Convert CZI to OME-ZARR using [ngff-zarr]
-
-See: [write_omezarr_adv.py](./workshop/czi_omezarr/write_omezarr_ngff.py)
-
-### Convert CZI to OME-ZARR HCS Plate using [ome-zarr]
-
-See: [write_omezarr_adv.py](./workshop/czi_omezarr/write_hcs_omezarr.py)
-
-### Convert CZI to OME-ZARR HCS Plate using [ngff-zarr]
-
-See: [write_omezarr_adv.py](./workshop/czi_omezarr/write_hcs_ngffzarr.py)
 
 ## Deep Learning Topics
 

@@ -85,3 +85,8 @@ czmodel = {version = ">=6", extras = ["pytorch"]}
 torch = "==2.5.1"
 torchvision = "==0.20.1"
 czmodel = {version = ">=6", extras = ["pytorch"]}
+
+[tasks]
+
+# start Napari with the zen-python environment
+start-napari = {cmd = "napari"} 
