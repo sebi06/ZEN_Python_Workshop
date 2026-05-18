@@ -59,9 +59,7 @@ def main() -> None:
     # filepath: str = str(Path(__file__).parent.parent.parent / "data" / "WP96_4Pos_B4-10_DAPI.czi")
 
     # Option 2: Use absolute path to external test data
-    # filepath: str = r"F:\Github\omezarr_playground\data\CellDivision5D.czi"
-    filepath: str = r"F:\Github\omezarr_playground\data\WP96_4Pos_B4-10_DAPI.czi"
-    # filepath: str = r"F:\Testdata_Zeiss\OME_ZARR_Testfiles\384well_DAPI_sm.czi"
+    filepath: str = r"F:\GitHub\ZEN_Python_Workshop\czi_data\WP96_4Pos_B4-10_DAPI_ngff_plate.ome.zarr"
 
     # ========== Validate Input File ==========
     if not Path(filepath).exists():

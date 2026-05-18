@@ -1,12 +1,12 @@
 import ngio
-from ngio.utils import download_ome_zarr_dataset, list_ome_zarr_datasets
 from ngio import open_ome_zarr_plate
-import os
 from czi_omezarr_utils.validation import validate_ome_zarr
 from pathlib import Path
 
-# define path to local OME-ZARR file
-omezarr_path = Path(r"data/WP96_4Pos_B4-10_DAPI_ngff_plate.ome.zarr")
+# define path to local OME-ZARR file — resolved relative to this script's location
+# so it works regardless of the working directory from which the script is invoked
+REPO_ROOT = Path(__file__).parent.parent
+omezarr_path = REPO_ROOT / "czi_data" / "WP96_4Pos_B4-10_DAPI_ngff_plate.ome.zarr"
 
 # validate the OME-ZARR file
 is_valid = validate_ome_zarr(omezarr_path)
