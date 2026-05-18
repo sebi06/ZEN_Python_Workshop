@@ -487,7 +487,6 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/15/ef/7d57ceb0651af74194e97ed6583e148d352f03d696090221b8059cdfc90b/polars_runtime_32-1.40.1-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/18/29/71729b4671f21e1eaa5d6573031ab810ad2936c8175f03f97f3ff164c802/websockets-16.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/1d/df/5ba47e12638ac537a8166a454c497032af83f2d5eb826bca81024ac8f78c/itkwasm-1.0b195-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/20/90/a8dfe8788c269fd0d7d7438fdc9aa154402a8168d8a84e74dcc399ff7767/czitools-0.17.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/20/a1/ee66126a7988374bf13d9148b90c5ea0d1801b7b8434b41d3075b1c45d4d/napari_workflows-0.2.11-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/27/94/3266821f65b92b3138631e9c8e7fe1fb513804ac934485a8d05776e1dd43/nvidia_cufft_cu12-11.2.1.3-py3-none-manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/28/ba/4d38178cc15721eec82634d34e94b386e3f830f6f6c9d9bee10b4c6fb6a3/napari_skimage_regionprops-0.10.1-py3-none-any.whl
@@ -517,6 +516,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/6d/c1/e419ef3723a074172b68aaa89c9f3de486ed4c2399e2dbd8113a4fdcaf9e/colorlog-6.10.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/6e/f6/d1fc0a610bd611de5aee7dff1d614258ee6538eac9624228792483fed2df/napari_czitools-0.0.11-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/78/eb/65f5ba83c2a123f6498a3097746607e5b2f16add29e36765305e4ac7fdd8/triton-3.1.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/7b/65/57c573005ae1fb6228bbb2a3272eb2cb39ec7beeabce59009c7b5bc5ef41/czitools-0.17.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/7b/d9/f90c4d992c20f0b9dc62fce11117d8a33bf2ebbc3f264b79123a461d73ae/tiler-0.6.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/7e/85/545a951eecc270fcd688288c600017e2050a1aacb56c711d208586d3e470/pymdown_extensions-10.21.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/81/47/dd9a212ef6e343a6857485ffe25bba537304f1913bdbed446a23f7f592e1/filelock-3.29.0-py3-none-any.whl
@@ -980,7 +980,6 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/15/41/ac2dfdbc1f60c7af4f994c7a335cfa7040c01642b605d65f611cecc2a1e4/uvicorn-0.47.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/19/2a/725ecc166d53438bc88f76822ed4b1e3b10756e790bafd7b523fe97c322d/yarl-1.23.0-cp312-cp312-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/1d/df/5ba47e12638ac537a8166a454c497032af83f2d5eb826bca81024ac8f78c/itkwasm-1.0b195-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/20/90/a8dfe8788c269fd0d7d7438fdc9aa154402a8168d8a84e74dcc399ff7767/czitools-0.17.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/20/a1/ee66126a7988374bf13d9148b90c5ea0d1801b7b8434b41d3075b1c45d4d/napari_workflows-0.2.11-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/28/ba/4d38178cc15721eec82634d34e94b386e3f830f6f6c9d9bee10b4c6fb6a3/napari_skimage_regionprops-0.10.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/29/47/7be41556bfbb6917069d6a6634bb7dd5e163ba445b783a90d40f5ac7e3a7/aiohttp-3.13.5-cp312-cp312-macosx_11_0_arm64.whl
@@ -1008,6 +1007,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/6d/c1/e419ef3723a074172b68aaa89c9f3de486ed4c2399e2dbd8113a4fdcaf9e/colorlog-6.10.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/6e/f6/d1fc0a610bd611de5aee7dff1d614258ee6538eac9624228792483fed2df/napari_czitools-0.0.11-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/78/e4/7b614260bf16c5e33c0bea6ac47ab0284efd21f89f2e5e4e15cd93bead40/loro-1.10.3-cp312-cp312-macosx_11_0_arm64.whl
+      - pypi: https://files.pythonhosted.org/packages/7b/65/57c573005ae1fb6228bbb2a3272eb2cb39ec7beeabce59009c7b5bc5ef41/czitools-0.17.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/7b/d0/34c3ccd12bdef62f6933fa0455633dcf1381a354fe835fd3e99c7498b449/aicspylibczi-3.3.1-cp312-cp312-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/7b/d9/f90c4d992c20f0b9dc62fce11117d8a33bf2ebbc3f264b79123a461d73ae/tiler-0.6.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/7d/ae/cb644ec84c25e63575d9d8790fdcc5d1a11d67d3f62f872edb35fa38d158/onnx-1.21.0-cp312-abi3-macosx_12_0_universal2.whl
@@ -1453,7 +1453,6 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/15/41/ac2dfdbc1f60c7af4f994c7a335cfa7040c01642b605d65f611cecc2a1e4/uvicorn-0.47.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/1a/9b/2b5be23f1da4cf20c6ce213cfffc66bdab2ea012595abc9e3383103793d0/loro-1.10.3-cp312-cp312-win_amd64.whl
       - pypi: https://files.pythonhosted.org/packages/1d/df/5ba47e12638ac537a8166a454c497032af83f2d5eb826bca81024ac8f78c/itkwasm-1.0b195-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/20/90/a8dfe8788c269fd0d7d7438fdc9aa154402a8168d8a84e74dcc399ff7767/czitools-0.17.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/20/a1/ee66126a7988374bf13d9148b90c5ea0d1801b7b8434b41d3075b1c45d4d/napari_workflows-0.2.11-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/28/ba/4d38178cc15721eec82634d34e94b386e3f830f6f6c9d9bee10b4c6fb6a3/napari_skimage_regionprops-0.10.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/2f/43/d7e2b9ad768c07b5473bea3ac7db9ca4d995c09399cbea3d4df1c0bd4955/rangehttpserver-1.4.0-py2.py3-none-any.whl
@@ -1476,6 +1475,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/6d/56/31042c2de13af74b7c41d62eda5d982caabb361e7326eaf12aa169e2da13/ome_writers-0.3.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/6d/c1/e419ef3723a074172b68aaa89c9f3de486ed4c2399e2dbd8113a4fdcaf9e/colorlog-6.10.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/6e/f6/d1fc0a610bd611de5aee7dff1d614258ee6538eac9624228792483fed2df/napari_czitools-0.0.11-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/7b/65/57c573005ae1fb6228bbb2a3272eb2cb39ec7beeabce59009c7b5bc5ef41/czitools-0.17.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/7b/d9/f90c4d992c20f0b9dc62fce11117d8a33bf2ebbc3f264b79123a461d73ae/tiler-0.6.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/7e/85/545a951eecc270fcd688288c600017e2050a1aacb56c711d208586d3e470/pymdown_extensions-10.21.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/80/31/0b2517913687895f5904325c2069d6a3b78f66cc641a86a2baf75a05dcbb/multidict-6.7.1-cp312-cp312-win_amd64.whl
@@ -2006,7 +2006,6 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/15/ef/7d57ceb0651af74194e97ed6583e148d352f03d696090221b8059cdfc90b/polars_runtime_32-1.40.1-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/18/29/71729b4671f21e1eaa5d6573031ab810ad2936c8175f03f97f3ff164c802/websockets-16.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/1d/df/5ba47e12638ac537a8166a454c497032af83f2d5eb826bca81024ac8f78c/itkwasm-1.0b195-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/20/90/a8dfe8788c269fd0d7d7438fdc9aa154402a8168d8a84e74dcc399ff7767/czitools-0.17.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/20/a1/ee66126a7988374bf13d9148b90c5ea0d1801b7b8434b41d3075b1c45d4d/napari_workflows-0.2.11-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/27/94/3266821f65b92b3138631e9c8e7fe1fb513804ac934485a8d05776e1dd43/nvidia_cufft_cu12-11.2.1.3-py3-none-manylinux2014_x86_64.whl
       - pypi: https://files.pythonhosted.org/packages/28/ba/4d38178cc15721eec82634d34e94b386e3f830f6f6c9d9bee10b4c6fb6a3/napari_skimage_regionprops-0.10.1-py3-none-any.whl
@@ -2036,6 +2035,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/6d/c1/e419ef3723a074172b68aaa89c9f3de486ed4c2399e2dbd8113a4fdcaf9e/colorlog-6.10.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/6e/f6/d1fc0a610bd611de5aee7dff1d614258ee6538eac9624228792483fed2df/napari_czitools-0.0.11-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/78/eb/65f5ba83c2a123f6498a3097746607e5b2f16add29e36765305e4ac7fdd8/triton-3.1.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+      - pypi: https://files.pythonhosted.org/packages/7b/65/57c573005ae1fb6228bbb2a3272eb2cb39ec7beeabce59009c7b5bc5ef41/czitools-0.17.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/7b/d9/f90c4d992c20f0b9dc62fce11117d8a33bf2ebbc3f264b79123a461d73ae/tiler-0.6.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/7e/85/545a951eecc270fcd688288c600017e2050a1aacb56c711d208586d3e470/pymdown_extensions-10.21.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/81/47/dd9a212ef6e343a6857485ffe25bba537304f1913bdbed446a23f7f592e1/filelock-3.29.0-py3-none-any.whl
@@ -2499,7 +2499,6 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/15/41/ac2dfdbc1f60c7af4f994c7a335cfa7040c01642b605d65f611cecc2a1e4/uvicorn-0.47.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/19/2a/725ecc166d53438bc88f76822ed4b1e3b10756e790bafd7b523fe97c322d/yarl-1.23.0-cp312-cp312-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/1d/df/5ba47e12638ac537a8166a454c497032af83f2d5eb826bca81024ac8f78c/itkwasm-1.0b195-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/20/90/a8dfe8788c269fd0d7d7438fdc9aa154402a8168d8a84e74dcc399ff7767/czitools-0.17.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/20/a1/ee66126a7988374bf13d9148b90c5ea0d1801b7b8434b41d3075b1c45d4d/napari_workflows-0.2.11-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/28/ba/4d38178cc15721eec82634d34e94b386e3f830f6f6c9d9bee10b4c6fb6a3/napari_skimage_regionprops-0.10.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/29/47/7be41556bfbb6917069d6a6634bb7dd5e163ba445b783a90d40f5ac7e3a7/aiohttp-3.13.5-cp312-cp312-macosx_11_0_arm64.whl
@@ -2527,6 +2526,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/6d/c1/e419ef3723a074172b68aaa89c9f3de486ed4c2399e2dbd8113a4fdcaf9e/colorlog-6.10.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/6e/f6/d1fc0a610bd611de5aee7dff1d614258ee6538eac9624228792483fed2df/napari_czitools-0.0.11-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/78/e4/7b614260bf16c5e33c0bea6ac47ab0284efd21f89f2e5e4e15cd93bead40/loro-1.10.3-cp312-cp312-macosx_11_0_arm64.whl
+      - pypi: https://files.pythonhosted.org/packages/7b/65/57c573005ae1fb6228bbb2a3272eb2cb39ec7beeabce59009c7b5bc5ef41/czitools-0.17.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/7b/d0/34c3ccd12bdef62f6933fa0455633dcf1381a354fe835fd3e99c7498b449/aicspylibczi-3.3.1-cp312-cp312-macosx_11_0_arm64.whl
       - pypi: https://files.pythonhosted.org/packages/7b/d9/f90c4d992c20f0b9dc62fce11117d8a33bf2ebbc3f264b79123a461d73ae/tiler-0.6.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/7d/ae/cb644ec84c25e63575d9d8790fdcc5d1a11d67d3f62f872edb35fa38d158/onnx-1.21.0-cp312-abi3-macosx_12_0_universal2.whl
@@ -2972,7 +2972,6 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/15/41/ac2dfdbc1f60c7af4f994c7a335cfa7040c01642b605d65f611cecc2a1e4/uvicorn-0.47.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/1a/9b/2b5be23f1da4cf20c6ce213cfffc66bdab2ea012595abc9e3383103793d0/loro-1.10.3-cp312-cp312-win_amd64.whl
       - pypi: https://files.pythonhosted.org/packages/1d/df/5ba47e12638ac537a8166a454c497032af83f2d5eb826bca81024ac8f78c/itkwasm-1.0b195-py3-none-any.whl
-      - pypi: https://files.pythonhosted.org/packages/20/90/a8dfe8788c269fd0d7d7438fdc9aa154402a8168d8a84e74dcc399ff7767/czitools-0.17.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/20/a1/ee66126a7988374bf13d9148b90c5ea0d1801b7b8434b41d3075b1c45d4d/napari_workflows-0.2.11-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/28/ba/4d38178cc15721eec82634d34e94b386e3f830f6f6c9d9bee10b4c6fb6a3/napari_skimage_regionprops-0.10.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/2f/43/d7e2b9ad768c07b5473bea3ac7db9ca4d995c09399cbea3d4df1c0bd4955/rangehttpserver-1.4.0-py2.py3-none-any.whl
@@ -2995,6 +2994,7 @@ environments:
       - pypi: https://files.pythonhosted.org/packages/6d/56/31042c2de13af74b7c41d62eda5d982caabb361e7326eaf12aa169e2da13/ome_writers-0.3.2-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/6d/c1/e419ef3723a074172b68aaa89c9f3de486ed4c2399e2dbd8113a4fdcaf9e/colorlog-6.10.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/6e/f6/d1fc0a610bd611de5aee7dff1d614258ee6538eac9624228792483fed2df/napari_czitools-0.0.11-py3-none-any.whl
+      - pypi: https://files.pythonhosted.org/packages/7b/65/57c573005ae1fb6228bbb2a3272eb2cb39ec7beeabce59009c7b5bc5ef41/czitools-0.17.1-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/7b/d9/f90c4d992c20f0b9dc62fce11117d8a33bf2ebbc3f264b79123a461d73ae/tiler-0.6.0-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/7e/85/545a951eecc270fcd688288c600017e2050a1aacb56c711d208586d3e470/pymdown_extensions-10.21.3-py3-none-any.whl
       - pypi: https://files.pythonhosted.org/packages/80/31/0b2517913687895f5904325c2069d6a3b78f66cc641a86a2baf75a05dcbb/multidict-6.7.1-cp312-cp312-win_amd64.whl
@@ -16775,52 +16775,6 @@ packages:
   - typing-extensions
   - wasmtime>=28.0.0 ; sys_platform != 'emscripten'
   requires_python: '>=3.9'
-- pypi: https://files.pythonhosted.org/packages/20/90/a8dfe8788c269fd0d7d7438fdc9aa154402a8168d8a84e74dcc399ff7767/czitools-0.17.0-py3-none-any.whl
-  name: czitools
-  version: 0.17.0
-  sha256: dc3e4447092f4c9629d882ffa49fb6c80e393c9e0c123da0495235969ef04e2b
-  requires_dist:
-  - pylibczirw>=5
-  - progressbar2
-  - pandas
-  - python-dateutil
-  - python-box[all]
-  - czifile
-  - loguru
-  - colorlog
-  - pydantic
-  - xarray
-  - xarray[complete]
-  - seaborn ; extra == 'all'
-  - plotly ; extra == 'all'
-  - qtpy ; extra == 'all'
-  - pyqtgraph ; extra == 'all'
-  - colormap ; extra == 'all'
-  - ngff-zarr ; extra == 'all'
-  - ngff-zarr[validate] ; extra == 'all'
-  - ngff-zarr[dask-image] ; extra == 'all'
-  - bioio ; extra == 'all'
-  - bioio-czi ; extra == 'all'
-  - bioio-ome-zarr ; extra == 'all'
-  - ndv[pyqt,vispy] ; extra == 'all'
-  - mkdocs-material ; extra == 'docs'
-  - mkdocs-autorefs ; extra == 'docs'
-  - mkdocs-spellcheck ; extra == 'docs'
-  - mkdocs-api-autonav ; extra == 'docs'
-  - pymdown-extensions ; extra == 'docs'
-  - mkdocs>=1.6.1 ; extra == 'docs'
-  - mkdocs-api-autonav>=0.1.2 ; extra == 'docs'
-  - mkdocs-material>=9.5.49 ; extra == 'docs'
-  - mkdocs-minify-plugin>=0.8.0 ; extra == 'docs'
-  - mkdocs-spellcheck[codespell]==1.1.0 ; extra == 'docs'
-  - mkdocstrings-python>=1.13.0 ; extra == 'docs'
-  - mike>=2.1.3 ; extra == 'docs'
-  - ruff>=0.9.4 ; extra == 'docs'
-  - cmap ; extra == 'docs'
-  - ndv ; extra == 'docs'
-  - matplotlib ; extra == 'docs'
-  - plotly ; extra == 'docs'
-  requires_python: '>=3.12,<3.14'
 - pypi: https://files.pythonhosted.org/packages/20/a1/ee66126a7988374bf13d9148b90c5ea0d1801b7b8434b41d3075b1c45d4d/napari_workflows-0.2.11-py3-none-any.whl
   name: napari-workflows
   version: 0.2.11
@@ -17386,6 +17340,52 @@ packages:
   - matplotlib ; extra == 'tutorials'
   - pandas ; extra == 'tutorials'
   - tabulate ; extra == 'tutorials'
+- pypi: https://files.pythonhosted.org/packages/7b/65/57c573005ae1fb6228bbb2a3272eb2cb39ec7beeabce59009c7b5bc5ef41/czitools-0.17.1-py3-none-any.whl
+  name: czitools
+  version: 0.17.1
+  sha256: 2de97c54aba176019e6c588264a229e7dfcaceacaa60dd6f482622d3a3a92de5
+  requires_dist:
+  - pylibczirw>=5
+  - progressbar2
+  - pandas
+  - python-dateutil
+  - python-box[all]
+  - czifile
+  - loguru
+  - colorlog
+  - pydantic
+  - xarray
+  - xarray[complete]
+  - seaborn ; extra == 'all'
+  - plotly ; extra == 'all'
+  - qtpy ; extra == 'all'
+  - pyqtgraph ; extra == 'all'
+  - colormap ; extra == 'all'
+  - ngff-zarr ; extra == 'all'
+  - ngff-zarr[validate] ; extra == 'all'
+  - ngff-zarr[dask-image] ; extra == 'all'
+  - bioio ; extra == 'all'
+  - bioio-czi ; extra == 'all'
+  - bioio-ome-zarr ; extra == 'all'
+  - ndv[pyqt,vispy] ; extra == 'all'
+  - mkdocs-material ; extra == 'docs'
+  - mkdocs-autorefs ; extra == 'docs'
+  - mkdocs-spellcheck ; extra == 'docs'
+  - mkdocs-api-autonav ; extra == 'docs'
+  - pymdown-extensions ; extra == 'docs'
+  - mkdocs>=1.6.1 ; extra == 'docs'
+  - mkdocs-api-autonav>=0.1.2 ; extra == 'docs'
+  - mkdocs-material>=9.5.49 ; extra == 'docs'
+  - mkdocs-minify-plugin>=0.8.0 ; extra == 'docs'
+  - mkdocs-spellcheck[codespell]==1.1.0 ; extra == 'docs'
+  - mkdocstrings-python>=1.13.0 ; extra == 'docs'
+  - mike>=2.1.3 ; extra == 'docs'
+  - ruff>=0.9.4 ; extra == 'docs'
+  - cmap ; extra == 'docs'
+  - ndv ; extra == 'docs'
+  - matplotlib ; extra == 'docs'
+  - plotly ; extra == 'docs'
+  requires_python: '>=3.12,<3.14'
 - pypi: https://files.pythonhosted.org/packages/7b/d0/34c3ccd12bdef62f6933fa0455633dcf1381a354fe835fd3e99c7498b449/aicspylibczi-3.3.1-cp312-cp312-macosx_11_0_arm64.whl
   name: aicspylibczi
   version: 3.3.1
