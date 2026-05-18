@@ -24,7 +24,6 @@ from czi_omezarr_utils import (
 import ngff_zarr as nz
 from pathlib import Path
 from czitools.read_tools import read_tools
-from typing import Optional
 
 
 def main() -> None:
