@@ -45,7 +45,7 @@ czi-omezarr-utils = {path = ".", editable = true}
 
 # CZI readers
 aicspylibczi = ">=3.3.1"
-czitools = ">=0.17.0"
+czitools = ">=0.17.1"
 czmodel = {version = ">=6.1.2", extras = ["pytorch"]}
 
 # # BioIO ecosystem

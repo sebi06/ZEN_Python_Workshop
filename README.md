@@ -82,7 +82,7 @@ Simple and easy-to-use Python wrapper for [libCZI] providing read and write ac
 
 This repository provides a collection of tools to simplify reading CZI (Carl Zeiss Image) pixel and metadata in Python. It is available as a Python Package on PyPi.
 
-> Disclaimer: [czitools](https://pypi.org/search/?q=czitools) is an experimental python package and not officially supported by ZEISS.
+> Disclaimer: [czitools] is an experimental python package and not officially supported by ZEISS. The authors undertakes no warranty concerning its use.
 
 PyPi: [https://pypi.org/project/czitools/](https://pypi.org/project/czitools/)
 Repo: [https://github.com/sebi06/czitools](https://github.com/sebi06/czitools)
@@ -97,56 +97,60 @@ License: GPL v3
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Read CZI Metadata   | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/read_czi_metadata.ipynb)  |
 | Read CZI Pixel Data | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/read_czi_pixeldata.ipynb) |
+| Get CZI PlaneTable  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/get_planetable.ipynb)     |
 
 ## Deep Learning Topics
 
 ### Train a Deep-Learning Model for Semantic Segmentation on arivis Cloud
 
-The general idea is to learn how to label a dataset on [arivis Cloud].
+It is straight forward to train AI models for sematic and instance segmentation on [arivis Cloud]. The training is based on a zero-code approach and especially suited for beginners.
 
-Dataset Name: **Smart_Microscopy_Workshop_2025_Nucleus_Semantic**
+For the the examples below the focus in on **Semantic Segmentation** only.
+
+- login to **[arivis Cloud]** (requires account)
+- create **New Dataset**
+- upload the test images inside: `..\notebooks\nucleus_data\images\`
+- all images will be converted to CZIs automatically
 
 ![Annotated Dataset](./images/apeer_dataset_nuc.png)
 
+- start labeling the data by pressing **Annotate**
+- create labels manually or use the AI-assisted tool (SAM-based)
 - label some nuclei "precisely"
 - label background areas and edges
 - embrace the idea of partial labeling
 
 ![Partial Annotations](./images/APEER_annotation_auto_background.gif)
 
-- start a training to get a trained model as a *.czann file
-
-Remark: The the modelfile: **cyto2022_nuc2.czann** can be found inside the repository.
-
 For more detailed information please visit: [Docs - Partial Annotations](https://docs.apeer.com/machine-learning/annotation-guidelines)
 
-### Use the model in your python code
+Once the training is finished one will get notified via mail and the model can be downloaded as an *.czann file, which is an ONNX model plus model metadata. For detail see: [czmodel]
 
-Once the model is trained it can be downloaded directly to your hard disk and used to segment images in ZEN or arivis Pro or your own python code.
+Remark: The the modelfile: **cyto2022_nuc2.czann** can be found inside the repository and can be used directly for the examples.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/run_prediction_from_czann.ipynb)
+### Use the CZANN model in your python code
+
+Once the model (*.czann) is trained it can be downloaded directly to your hard disk and used to segment images in ZEN or arivis Pro or your own python code.
+
+| Topic                             | Link                                                                                                                                                                                                  |
+| --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Run CZANN Model from arivis Cloud | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/run_prediction_from_czann.ipynb) |
 
 ### Train your own model and package (as *.czann) using the [czmodel] package
 
-The package provides simple-to-use conversion tools to generate a CZANN file from a [PyTorch] or [ONNX] model that resides in memory or on disk to be usable in the ZEN, arivis Cloud, arivisPro software platforms and also in your own code.
+The [czmodel] package provides simple-to-use conversion tools to generate a CZANN file from a [PyTorch] or [ONNX] model that resides in memory or on disk to be usable in the ZEN, arivis Cloud, arivis Pro software platforms and **in your own code**.
 
 For details and more information examples please go to: [czmodel]
 
 ### Train a simple model for semantic segmentation
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/SingleClassSemanticSegmentation_PyTorch.ipynb)
+| Topic                           | Link                                                                                                                                                                                                                |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Train Model and export as CZANN | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/SingleClassSemanticSegmentation_PyTorch.ipynb) |
 
 ### Use the model inside Napari (experimental)
 
-This plugin is purely experimental. The authors undertakes no warranty concerning its use.
-
-In order to use such a model one needs a running python environment with [Napari] and the [napari-czann-segment] plugin installed.
-
-It can install it via [pip]:
-
-```cmd
-pip install napari-czann-segment
-```
+> Disclaimer: [napari-czann-segment] is an experimental Napari plugin and not officially supported by ZEISS. The authors undertakes no warranty concerning its use.
 
 For more detailed information about the plugin please go to: [Napari Hub - napari-czann-segment](https://www.napari-hub.org/plugins/napari-czann-segment)
 
