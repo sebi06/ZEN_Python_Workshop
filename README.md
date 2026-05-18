@@ -7,7 +7,9 @@
     - [Additional Remarks](#additional-remarks)
   - [C++ library: libCZI](#c-library-libczi)
   - [pylibCZIrw (python wrapper for libCZI)](#pylibczirw-python-wrapper-for-libczi)
+    - [Example Notebooks using pylibCZIrw](#example-notebooks-using-pylibczirw)
   - [czitools (experimental)](#czitools-experimental)
+    - [Example Notebooks using czitools](#example-notebooks-using-czitools)
   - [napari-czitools (experimental)](#napari-czitools-experimental)
   - [Deep Learning Topics](#deep-learning-topics)
     - [Train a Deep-Learning Model for Semantic Segmentation on arivis Cloud](#train-a-deep-learning-model-for-semantic-segmentation-on-arivis-cloud)
@@ -94,6 +96,8 @@ Simple and easy-to-use Python wrapper for [libCZI] providing read and write ac
 - writing 2D planes to any dimension
 - Used by [bioio-czi](https://pypi.org/project/bioio-czi/) library
 
+### Example Notebooks using pylibCZIrw
+
 | Topic                     | Link                                                                                                                                                                                                     |
 | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Use pylibCZIrw            | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/using_pylibCZIrw.ipynb)             |
@@ -114,6 +118,8 @@ License: GPL v3
 - read complete or partial metadata is a structured format
 - get the plantable from a CZI
 - create OME-ZARR from CZI
+
+### Example Notebooks using czitools
 
 | Topic               | Link                                                                                                                                                                                            |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -205,39 +211,45 @@ Please check the tool's internal help by running `CZICheck.exe --help` and check
 
 ---
 
-| Name/Description                                      | Link                                                                                    | Name/Description                                      | Link                                                |
-| ----------------------------------------------------- | --------------------------------------------------------------------------------------- | ----------------------------------------------------- | --------------------------------------------------- |
-| Napari - Python-based image viewer                    | [GitHub](https://github.com/napari/napari)                                              | pip - Python Package Installer                        | [PyPI](https://pypi.org/project/pip/)               |
-| PyPi - Python Package Index                           | [PyPI](https://pypi.org/)                                                               | pylibCZIrw - Python Package to read & write CZI files | [PyPI](https://pypi.org/project/pylibCZIrw)         |
-| pylibCZIrw - GitHub Repository for CZI files (Python) | [GitHub](https://github.com/ZEISS/pylibczirw)                                           | czmodel - Package for Pytorch & ONNX models           | [PyPI](https://pypi.org/project/czmodel)            |
-| cztile - Python Package for tiling arrays             | [PyPI](https://pypi.org/project/cztile)                                                 | arivis Cloud - DL Training Platform                   | [arivis Cloud](https://www.arivis.cloud)            |
-| napari-czann-segment - Napari Plugin for DL models    | [GitHub](https://github.com/sebi06/napari_czann_segment)                                | napari-czitools - Plugin for CZI files                | [GitHub](https://github.com/sebi06/napari-czitools) |
-| CZI - Carl Zeiss Image Format                         | [ZEISS](https://www.zeiss.com/microscopy/int/products/microscope-software/zen/czi.html) | PyTorch                                               | [PyTorch](https://pytorch.org)                      |
-| ONNX                                                  | [ONNX](https://onnx.ai)                                                                 | libCZI - GitHub Repository for CZI files (C++)        | [GitHub](https://github.com/ZEISS/libczi)           |
-| czitools - Tools for CZI files                        | [PyPI](https://pypi.org/project/czitools)                                               | Colab                                                 | [Colab](https://colab.research.google.com)          |
-| Docker Desktop                                        | [Docker Desktop](https://www.docker.com/products/docker-desktop)                        | CZICompress - Shrink CZI files                        | [GitHub](https://github.com/ZEISS/czicompress)      |
-| CZIChecker - Check Integrity of CZI files             | [GitHub](https://github.com/ZEISS/czicheck)                                             | ome-zarr - Python Implementation of NGFF Specs        | [GitHub](https://github.com/ome/ome-zarr-py)        |
-| NGFF - Next-generation File Formats                   | [NGFF](https://ngff.openmicroscopy.org/)                                                | ngff-zarr - Python Implementation of NGFF Specs       | [GitHub](https://github.com/fideus-labs/ngff-zarr)  |
+| Name/Description                                       | Link                   | Name/Description                                | Link              |
+| ------------------------------------------------------ | ---------------------- | ----------------------------------------------- | ----------------- |
+| Napari - Python-based image viewer                     | [Napari]               | pip - Python Package Installer                  | [PiP]             |
+| PyPi - Python Package Index                            | [PyPI]                 | OME-ZARR Python Library                         | [OME-ZARR]        |
+| pylibCZIrw - GitHub Repository for CZI files (Python)  | [pylibCZIrw]           | czmodel - Package for Pytorch & ONNX models     | [czmodel]         |
+| cztile - Python Package for tiling arrays              | [cztile]               | arivis Cloud - DL Training Platform             | [arivis Cloud]    |
+| napari-czann-segment - Napari Plugin for DL models     | [napari-czann-segment] | napari-czitools - Plugin for CZI files          | [napari-czitools] |
+| CZI - Carl Zeiss Image Format                          | [CZI Image Format]     | PyTorch                                         | [PyTorch]         |
+| ONNX                                                   | [ONNX]                 | libCZI - GitHub Repository for CZI files (C++)  | [libCZI]          |
+| czitools - Tools for CZI files                         | [czitools]             | Colab                                           | [Colab]           |
+| Docker Desktop                                         | [Docker Desktop]       | CZICompress - Shrink CZI files                  | [CZICompress]     |
+| CZIChecker - Check Integrity of CZI files              | [CZICheck]             | ome-zarr - Python Implementation of NGFF Specs  | [OME-ZARR]        |
+| NGFF - Next-generation File Formats                    | [NGFF-ZARR]            | ngff-zarr - Python Implementation of NGFF Specs | [NGFF-ZARR]       |
+| ome-zarr-models - minimal package for reading OME-Zarr | [OME-ZARR_MODELS]      | ngio - intuitive interface for OME-Zarr files   | [NGIO]            |
 
 ---
 
-[Napari]: https://github.com/napari/napari
-[pip]: https://pypi.org/project/pip/
-[pylibCZIrw]: https://pypi.org/project/pylibCZIrw
-[pylibCZIrw_github]: https://github.com/ZEISS/pylibczirw
-[czmodel]: https://pypi.org/project/czmodel
+[aicspylibczi]: https://pypi.org/project/aicspylibczi/
 [arivis Cloud]: https://www.arivis.cloud
-[napari-czann-segment]: https://github.com/sebi06/napari_czann_segment
-[napari-czitools]: https://github.com/sebi06/napari-czitools
-[PyTorch]: https://pytorch.org
-[ONNX]: https://onnx.ai
-[libCZI]: https://github.com/ZEISS/libczi
+[bioio-czi]: https://pypi.org/project/bioio-czi/
+[CZI Image Format]: https://www.zeiss.com/microscopy/int/products/microscope-software/zen/czi.html
+[CZICheck]: https://github.com/ZEISS/czicheck
+[CZICompress]: https://github.com/ZEISS/czicompress
 [czitools]: https://pypi.org/project/czitools
+[cztile]: https://pypi.org/project/cztile
+[czmodel]: https://pypi.org/project/czmodel
 [Colab]: https://colab.research.google.com
 [Docker Desktop]: https://www.docker.com/products/docker-desktop
-[CZICompress]: https://github.com/ZEISS/czicompress
-[ome-zarr]: https://github.com/ome/ome-zarr-py
-[ngff-zarr]: https://github.com/fideus-labs/ngff-zarr
-[bioio-czi]: https://pypi.org/project/bioio-czi/
-[aicspylibczi]: https://pypi.org/project/aicspylibczi/
-[napari-czitools]: https://pypi.org/project/napari-czitools/
+[libCZI]: https://github.com/ZEISS/libczi
+[Napari]: https://github.com/napari/napari
+[napari-czann-segment]: https://github.com/sebi06/napari_czann_segment
+[napari-czitools]: https://github.com/sebi06/napari-czitools
+[NGFF-ZARR]: https://github.com/fideus-labs/ngff-zarr
+[ONNX]: https://onnx.ai
+[OME-ZARR]: https://github.com/ome/ome-zarr-py
+[PiP]: https://pypi.org/project/pip/
+[pylibCZIrw]: https://pypi.org/project/pylibCZIrw
+[pylibCZIrw_github]: https://github.com/ZEISS/pylibczirw
+[PyPI]: https://pypi.org/
+[PyTorch]: https://pytorch.org
+[NGIO]: https://pypi.org/project/ngio/
+[OME-ZARR_MODELS]: https://pypi.org/project/ome-zarr-models/
