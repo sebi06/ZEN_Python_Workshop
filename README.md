@@ -1,3 +1,29 @@
+- [ZEN Python Workshop](#zen-python-workshop)
+  - [Disclaimer](#disclaimer)
+  - [General Remarks](#general-remarks)
+  - [Prerequisites](#prerequisites)
+    - [Install Pixi](#install-pixi)
+    - [Install Python Environment](#install-python-environment)
+    - [Additional Remarks](#additional-remarks)
+  - [C++ library: libCZI](#c-library-libczi)
+  - [pylibCZIrw (python wrapper for libCZI)](#pylibczirw-python-wrapper-for-libczi)
+  - [czitools (experimental)](#czitools-experimental)
+  - [napari-czitools (experimental)](#napari-czitools-experimental)
+  - [CZI and OME-ZARR (experimental)](#czi-and-ome-zarr-experimental)
+    - [Convert CZI to OME-ZARR using ome-zarr](#convert-czi-to-ome-zarr-using-ome-zarr)
+    - [Convert CZI to OME-ZARR using ngff-zarr](#convert-czi-to-ome-zarr-using-ngff-zarr)
+    - [Convert CZI to OME-ZARR HCS Plate using ome-zarr](#convert-czi-to-ome-zarr-hcs-plate-using-ome-zarr)
+    - [Convert CZI to OME-ZARR HCS Plate using ngff-zarr](#convert-czi-to-ome-zarr-hcs-plate-using-ngff-zarr)
+  - [Deep Learning Topics](#deep-learning-topics)
+    - [Train a Deep-Learning Model for Semantic Segmentation on arivis Cloud](#train-a-deep-learning-model-for-semantic-segmentation-on-arivis-cloud)
+    - [Use the CZANN model in your python code](#use-the-czann-model-in-your-python-code)
+    - [Train your own model and package (as \*.czann) using the czmodel package](#train-your-own-model-and-package-as-czann-using-the-czmodel-package)
+    - [Train a simple model for semantic segmentation](#train-a-simple-model-for-semantic-segmentation)
+    - [Use the model inside Napari (experimental)](#use-the-model-inside-napari-experimental)
+  - [CZICheck - Check CZI for internal errors](#czicheck---check-czi-for-internal-errors)
+  - [Useful Links](#useful-links)
+
+
 # ZEN Python Workshop
 
 ## Disclaimer
@@ -92,12 +118,44 @@ License: GPL v3
 - read complete stacks or substacks of CZI as numpy or dask arrays incl. lazy-loading
 - read complete or partial metadata is a structured format
 - get the plantable from a CZI
+- create OME-ZARR from CZI
 
 | Topic               | Link                                                                                                                                                                                           |
 | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Read CZI Metadata   | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/read_czi_metadata.ipynb)  |
 | Read CZI Pixel Data | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/read_czi_pixeldata.ipynb) |
 | Get CZI PlaneTable  | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/get_planetable.ipynb)     |
+| OME-ZARR from CZI   | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/czitools/blob/main/demo/notebooks/omezarr_from_czi_5d.ipynb)      |
+
+## napari-czitools (experimental)
+
+> Disclaimer: [napari-czitools] is an experimental Napari plugin and not officially supported by ZEISS. The authors undertakes no warranty concerning its use.
+
+In order to use such a model one needs a running python environment with [Napari] and the [napari-czitools] plugin installed.
+
+For more detailed information about the plugin please go to: [Napari Hub - napari-czitools](https://napari-hub.org/plugins/napari-czitools.html)
+
+## CZI and OME-ZARR (experimental)
+
+All OME-ZARR related scripts here are purely experimental. The authors undertakes no warranty concerning the use of those scripts.
+
+**By using any of those examples you agree to this disclaimer.**
+
+### Convert CZI to OME-ZARR using [ome-zarr]
+
+See: [write_omezarr_adv.py](./workshop/czi_omezarr/write_omezarr_adv.py)
+
+### Convert CZI to OME-ZARR using [ngff-zarr]
+
+See: [write_omezarr_adv.py](./workshop/czi_omezarr/write_omezarr_ngff.py)
+
+### Convert CZI to OME-ZARR HCS Plate using [ome-zarr]
+
+See: [write_omezarr_adv.py](./workshop/czi_omezarr/write_hcs_omezarr.py)
+
+### Convert CZI to OME-ZARR HCS Plate using [ngff-zarr]
+
+See: [write_omezarr_adv.py](./workshop/czi_omezarr/write_hcs_ngffzarr.py)
 
 ## Deep Learning Topics
 
@@ -156,36 +214,6 @@ For more detailed information about the plugin please go to: [Napari Hub - napar
 
 ![Train on arivis Cloud and use model in Napari](https://github.com/sebi06/napari-czann-segment/raw/main/readme_images/Train_APEER_run_Napari_CZANN_no_highlights_small.gif)
 
-## Using the [czitools] package (experimental)
-
-This python package is purely experimental. The authors undertakes no warranty concerning its use.
-
-For details please visit: [czitools]
-
-### Read CZI metadata
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/czitools/blob/main/demo/notebooks/read_czi_metadata.ipynb)
-
-### Read CZI pixeldata
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/czitools/blob/main/demo/notebooks/read_czi_pixeldata_simple.ipynb)
-
-### Write OME-ZARR from 5D CZI image data
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/czitools/blob/main/demo/notebooks/omezarr_from_czi_5d.ipynb)
-
-### Write CZI using ZSTD compression
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/czitools/blob/main/demo/notebooks/save_with_ZSTD_compression.ipynb)
-
-### Show planetable of a CZI image as surface
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/czitools/blob/main/demo/notebooks/show_czi_surface.ipynb)
-
-### Read a CZI and segment using Voroni-Otsu provided by PyClesperanto GPU processing
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/czitools/blob/main/demo/notebooks/read_czi_segment_voroni_otsu.ipynb)
-
 ## CZICheck - Check CZI for internal errors
 
 [CZICheck] is a command-line application developed using libCZI, enabling users to assess the integrity and structural correctness of a CZI document.
@@ -199,42 +227,6 @@ Each *checker* reports back findings of type Fatal, Warn, or Info.
 Please check the tool's internal help by running `CZICheck.exe --help` and check additional documentation on the repository.
 
 ![CZIChecker in Action](./images/czichecker1.png)
-
-## napari-czitools (experimental)
-
-This plugin is purely experimental. The authors undertakes no warranty concerning its use.
-
-In order to use such a model one needs a running python environment with [Napari] and the [napari-czitools] plugin installed.
-
-It can install it via [pip]:
-
-```cmd
-pip install napari-czitools
-```
-
-For more detailed information about the plugin please go to: [Napari Hub - napari-czitools](https://napari-hub.org/plugins/napari-czitools.html)
-
-## CZI and OME-ZARR (experimental)
-
-All OME-ZARR related scripts here are purely experimental. The authors undertakes no warranty concerning the use of those scripts.
-
-**By using any of those examples you agree to this disclaimer.**
-
-### Convert CZI to OME-ZARR using [ome-zarr]
-
-See: [write_omezarr_adv.py](./workshop/czi_omezarr/write_omezarr_adv.py)
-
-### Convert CZI to OME-ZARR using [ngff-zarr]
-
-See: [write_omezarr_adv.py](./workshop/czi_omezarr/write_omezarr_ngff.py)
-
-### Convert CZI to OME-ZARR HCS Plate using [ome-zarr]
-
-See: [write_omezarr_adv.py](./workshop/czi_omezarr/write_hcs_omezarr.py)
-
-### Convert CZI to OME-ZARR HCS Plate using [ngff-zarr]
-
-See: [write_omezarr_adv.py](./workshop/czi_omezarr/write_hcs_ngffzarr.py)
 
 ## Useful Links
 
