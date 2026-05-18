@@ -89,4 +89,7 @@ czmodel = {version = ">=6", extras = ["pytorch"]}
 [tasks]
 
 # start Napari with the zen-python environment
-start-napari = {cmd = "napari"} 
+start-napari = {cmd = "napari"}
+
+# start OME-ZARR converter UI with the zen-python environment
+start-ome-ui = {cmd = "python scripts/run_czi_converter_gui.py"}

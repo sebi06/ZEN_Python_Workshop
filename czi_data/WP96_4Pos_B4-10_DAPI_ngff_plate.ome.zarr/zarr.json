@@ -1,0 +1,79 @@
+{
+  "attributes": {
+    "ome": {
+      "version": "0.5",
+      "plate": {
+        "columns": [
+          {
+            "name": "04"
+          },
+          {
+            "name": "05"
+          },
+          {
+            "name": "06"
+          },
+          {
+            "name": "07"
+          },
+          {
+            "name": "08"
+          },
+          {
+            "name": "09"
+          },
+          {
+            "name": "10"
+          }
+        ],
+        "rows": [
+          {
+            "name": "B"
+          }
+        ],
+        "wells": [
+          {
+            "path": "B/04",
+            "rowIndex": 1,
+            "columnIndex": 3
+          },
+          {
+            "path": "B/05",
+            "rowIndex": 1,
+            "columnIndex": 4
+          },
+          {
+            "path": "B/06",
+            "rowIndex": 1,
+            "columnIndex": 5
+          },
+          {
+            "path": "B/07",
+            "rowIndex": 1,
+            "columnIndex": 6
+          },
+          {
+            "path": "B/08",
+            "rowIndex": 1,
+            "columnIndex": 7
+          },
+          {
+            "path": "B/09",
+            "rowIndex": 1,
+            "columnIndex": 8
+          },
+          {
+            "path": "B/10",
+            "rowIndex": 1,
+            "columnIndex": 9
+          }
+        ],
+        "field_count": 4,
+        "name": "Automated Plate",
+        "version": "0.5"
+      }
+    }
+  },
+  "zarr_format": 3,
+  "node_type": "group"
+}
