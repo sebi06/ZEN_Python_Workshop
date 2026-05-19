@@ -64,7 +64,7 @@ To clone this repository:
 
 ```bash
 git clone https://github.com/sebi06/ZEN_Python_Workshop
-````
+```
 
 ### Additional Remarks
 
@@ -76,7 +76,7 @@ git clone https://github.com/sebi06/ZEN_Python_Workshop
 
 [libCZI] is an Open Source Cross-Platform C++ library to read and write CZI.
 
-![libCZI](./presentations/czi_interfaces/images/libczi.png)
+![libCZI](./images/libczi.png)
 
 - Repo: [https://github.com/ZEISS/libczi](https://github.com/ZEISS/libczi)
 - Docs: [https://zeiss.github.io/libczi/](https://zeiss.github.io/libczi/)
@@ -84,7 +84,7 @@ git clone https://github.com/sebi06/ZEN_Python_Workshop
 
 libCZI is a library intended for providing read and write access:
 
-- reading subblock pixeldata 
+- reading subblock pixeldata
 - works with tiled and pyramidal images
 - composing multi-channel images with tinting and applying a gradation curves
 - access metadata
@@ -95,7 +95,7 @@ libCZI is a library intended for providing read and write access:
 
 A simple and easy-to-use Python wrapper for [libCZI](https://github.com/ZEISS/libczi) - a cross-platform C++ library intended for providing read and write access to CZI documents.
 
-![pylibCZIrw](./presentations/czi_interfaces/images/pylibczirw.png)
+![pylibCZIrw](./images/pylibczirw.png)
 
 - PyPi: [https://pypi.org/project/pylibCZIrw/](https://pypi.org/project/pylibCZIrw/)
 - Repo: [https://github.com/ZEISS/pylibczirw](https://github.com/ZEISS/pylibczirw)
@@ -108,7 +108,7 @@ Simple and easy-to-use Python wrapper for [libCZI] providing read and write ac
 - On-the-fly interpolations
 - access metadata
 - writing 2D planes to any dimension
-- Used by [bioio-czi](https://pypi.org/project/bioio-czi/) library
+- Used by [bioio-czi] library
 
 ### Example Notebooks using pylibCZIrw
 
@@ -190,7 +190,6 @@ pixi run start-omeui
 | OME-ZARR from CZI    | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/omezarr_from_czi_5d.ipynb)       |
 | Analyze HCS OME_ZARR | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sebi06/ZEN_Python_Workshop/blob/main/notebooks/process_omezarr_HCS_plate.ipynb) |
 
-
 ## Deep Learning Topics
 
 ### Train a Deep-Learning Model for Semantic Segmentation on arivis Cloud
@@ -253,7 +252,6 @@ To start [Napari] including the plugin [napari-czann-segment] use:
 ```bash
 pixi run start-napari
 ```
-
 
 ## CZICheck - Check CZI for internal errors
 
