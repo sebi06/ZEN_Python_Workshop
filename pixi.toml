@@ -45,7 +45,7 @@ czi-omezarr-utils = {path = ".", editable = true}
 
 # CZI readers
 aicspylibczi = ">=3.3.1"
-czitools = ">=0.17.1"
+czitools = ">=0.17.2"
 czmodel = {version = ">=6.1.2", extras = ["pytorch"]}
 
 # # BioIO ecosystem
@@ -63,8 +63,8 @@ ome-writers = "*"
 napari-brightness-contrast = "*"
 napari-crop = "*"
 napari-czitools = ">=0.0.11"
-napari-layer-details-display = "*"
-napari-ome-zarr = "*"
+napari-layer-statistics = "*"
+napari-ome-zarr = ">=0.8.0"
 napari-plugin-search = "*"
 napari-skimage-regionprops = "*"
 napari-czann-segment =  ">=0.0.23"
